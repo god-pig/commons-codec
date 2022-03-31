@@ -1,18 +1,18 @@
 package org.godpig.convert;
 
 /**
- * @author litao <litaoh@aliyun.com>
+ * @author litao litaoh@aliyun.com
  */
 public interface Codec<S, T> {
     /**
      * Returns the encoder from [S] to [T].
-     * @return Converter<S, T>
+     * @return encoder
      */
     Converter<S, T> getEncoder();
 
     /**
      * Returns the decoder of `this`, converting from [T] to [S].
-     * @return Converter<T, S>
+     * @return decoder
      */
     Converter<T, S> getDecoder();
 

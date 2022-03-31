@@ -1,7 +1,7 @@
 package org.godpig.convert;
 
 /**
- * @author litao <litaoh@aliyun.com>
+ * @author litao litaoh@aliyun.com
  */
 public class HexDecoder implements Converter<String, byte[]> {
     private static final String ALPHABET = "0123456789abcdef";

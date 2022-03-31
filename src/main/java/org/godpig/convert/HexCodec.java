@@ -1,7 +1,7 @@
 package org.godpig.convert;
 
 /**
- * @author litao <litaoh@aliyun.com>
+ * @author litao litaoh@aliyun.com
  */
 public class HexCodec extends BaseCodec<byte[], String>{
     public HexCodec() {

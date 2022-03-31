@@ -3,11 +3,11 @@ package org.godpig.convert;
 import java.util.Formatter;
 
 /**
- * @author litao <litaoh@aliyun.com>
+ * @author litao litaoh@aliyun.com
  */
 public class HexEncoder implements Converter<byte[], String>{
     @Override
-    public String convert(byte[] bytes) throws Exception {
+    public String convert(byte[] bytes) {
         StringBuilder sb = new StringBuilder(bytes.length * 2);
         Formatter formatter = new Formatter(sb);
         for (byte b : bytes) {

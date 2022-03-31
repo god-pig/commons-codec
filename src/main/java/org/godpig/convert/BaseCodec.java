@@ -1,7 +1,7 @@
 package org.godpig.convert;
 
 /**
- * @author litao <litaoh@aliyun.com>
+ * @author litao litaoh@aliyun.com
  */
 public abstract class BaseCodec<S, T> implements Codec<S, T> {
     protected Converter<S, T> encoder;
