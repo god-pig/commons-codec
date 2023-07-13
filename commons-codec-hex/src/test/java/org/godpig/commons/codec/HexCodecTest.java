@@ -10,12 +10,12 @@ class HexCodecTest {
     private final String hex = "0efb18dccaeb61e855e56dbc35922b24f6ee6e37caa3a07ba923";
 
     @Test
-    void encode() throws ConvertException {
+    void testEncode() throws ConvertException {
         assertEquals(Hex.encode(bytes), hex);
     }
 
     @Test
-    void decode() throws ConvertException {
+    void testDecode() throws ConvertException {
         assertArrayEquals(Hex.decode(hex), bytes);
     }
 }

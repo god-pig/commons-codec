@@ -1,17 +1,12 @@
-# java hex
+# Commons Codec
 
-Easy hexadecimal encoding and decoding
+The Commons Codec package contains simple encoder and decoders for various formats such as Base58 and Hexadecimal.
 
-# Usage
+# Packages
 
-A simple usage example:
+Below you can find a list of the packages included in this repository.
 
-```java
-class Example {
-    public static void main(String[] args) {
-        HexCodec hex = new HexCodec();
-        hex.encode(new byte[]{1, 2, 3}); // "010203"
-        hex.decode("010203"); // [1, 2, 3]
-    }
-}
-```
+| package                                |                       issues                       |
+|:---------------------------------------|:--------------------------------------------------:|
+| [commons-codec-hex][commons-codec-hex] | [![Hex Issues][hex-issues-badge]][hex-issues-link] |
+| [commons-codec-hex][commons-codec-hex] | [![Hex Issues][hex-issues-badge]][hex-issues-link] |
